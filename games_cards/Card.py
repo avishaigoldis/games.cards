@@ -14,3 +14,8 @@ class Card:
 
 
 
+    def __repr__(self):
+        # Print a playing card
+        return f"{self.value:>2} {self.suit:<7}"
+
+
