@@ -32,7 +32,8 @@ class TestCard(TestCase):
         # check card with error suit (suit = assd)
         self.assertRaises(ValueError, Card, 1, "assd")
 
-    def test__gt__1(self):
+
+    def test__gt__(self):
         # check "__gt__" with list of 4 cards
         list_cards = [self.c1, self.c2, self.c3, self.c4]
         print(list_cards)
